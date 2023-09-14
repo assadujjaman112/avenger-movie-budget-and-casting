@@ -1,0 +1,49 @@
+
+
+.container{
+    color: white;
+    margin: auto;
+
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/240159.jpg"),linear-gradient(to bottom, rgb(103, 135, 142), black);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+.card{
+    width: 240px;
+    height: 300px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.photo{
+    width: 80px;
+    border-radius: 50px;
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-btn{
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(35, 175, 210);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: none;
+}
+.home-container{
+    display: flex;
+    gap: 20px;
+}
+.card-container{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
